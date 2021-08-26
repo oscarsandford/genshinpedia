@@ -22,6 +22,26 @@
   width: 60%;
 }
 
+.GPFooter {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: $primary;
+  color: $light;
+  text-align: center;
+}
+
+.GPFooter a{
+  text-decoration: none;
+  color: $light
+}
+
+.GPFooter a:hover {
+  text-decoration: none;
+  color: $light
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -40,8 +60,4 @@
   to {
     transform: rotate(360deg);
   }
-}
-
-.App-link {
-  color: $primary;
 }

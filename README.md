@@ -11,3 +11,8 @@ and run the development build on `localhost:3000` with
 ```sh
 npm start
 ```
+
+### Deploy 
+```sh
+npm run deploy
+```
