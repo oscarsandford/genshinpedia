@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/genshinpedia/static/css/main.32c72775.chunk.css",
+    "main.js": "/genshinpedia/static/js/main.6ef9f117.chunk.js",
+    "main.js.map": "/genshinpedia/static/js/main.6ef9f117.chunk.js.map",
+    "runtime-main.js": "/genshinpedia/static/js/runtime-main.0c8c2b3f.js",
+    "runtime-main.js.map": "/genshinpedia/static/js/runtime-main.0c8c2b3f.js.map",
+    "static/css/2.983f79de.chunk.css": "/genshinpedia/static/css/2.983f79de.chunk.css",
+    "static/js/2.a667f55b.chunk.js": "/genshinpedia/static/js/2.a667f55b.chunk.js",
+    "static/js/2.a667f55b.chunk.js.map": "/genshinpedia/static/js/2.a667f55b.chunk.js.map",
+    "static/js/3.70b9be9e.chunk.js": "/genshinpedia/static/js/3.70b9be9e.chunk.js",
+    "static/js/3.70b9be9e.chunk.js.map": "/genshinpedia/static/js/3.70b9be9e.chunk.js.map",
+    "index.html": "/genshinpedia/index.html",
+    "static/css/2.983f79de.chunk.css.map": "/genshinpedia/static/css/2.983f79de.chunk.css.map",
+    "static/css/main.32c72775.chunk.css.map": "/genshinpedia/static/css/main.32c72775.chunk.css.map",
+    "static/js/2.a667f55b.chunk.js.LICENSE.txt": "/genshinpedia/static/js/2.a667f55b.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0c8c2b3f.js",
+    "static/css/2.983f79de.chunk.css",
+    "static/js/2.a667f55b.chunk.js",
+    "static/css/main.32c72775.chunk.css",
+    "static/js/main.6ef9f117.chunk.js"
+  ]
+}
