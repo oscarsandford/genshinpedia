@@ -7,7 +7,8 @@ const App = () => {
     <div className="App">
       <div className="GPSearch">
         <Selection type='artifacts'/>
-        {/* <Selection type='characters'/> */}
+        <Selection type='characters'/>
+        <Selection type='weapons'/>
       </div>
     </div>
   );

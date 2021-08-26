@@ -1,5 +1,12 @@
 // Module: formatting
-// Handles formatting strings and other data.
+// Functions for formatting strings and commonly used custom interfaces.
+
+// A set of props used in all card components. 
+// A type (i.e. "artifacts") and a article (i.e. "noblesse-oblige").
+export interface CardProps {
+  type: string;
+  article: string;
+}
 
 // Returns a version of the input string with 
 // - leading uppercase letters, 
