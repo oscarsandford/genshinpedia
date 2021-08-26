@@ -24,7 +24,6 @@ export const CharacterCard: React.FC<CardProps> = (props: CardProps) => {
 
   useEffect(() => {
     API.get(props.type + "/" + props.article).then(res => {
-      console.log(res);
       setItem({
         name: res["name"],
         rarity: res["rarity"],
