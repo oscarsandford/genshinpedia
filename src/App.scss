@@ -1,0 +1,48 @@
+// Include required bits to utilize Bootstrap SCSS.
+@import "../node_modules/bootstrap/scss/functions";
+// -- Custom overrides here. --
+@import "../node_modules/bootstrap/scss/variables";
+@import "../node_modules/bootstrap/scss/mixins";
+// @import "../node_modules/bootstrap/scss/bootstrap";
+
+// Custom SCSS here ..
+
+
+.App {
+  text-align: center;
+  background-color: $dark;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: $dark;
+}
+
+.GPSearch {
+  width: 60%;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.App-link {
+  color: $primary;
+}
