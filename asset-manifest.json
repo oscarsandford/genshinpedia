@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/genshinpedia/static/css/main.de6ddab0.chunk.css",
-    "main.js": "/genshinpedia/static/js/main.2701e927.chunk.js",
-    "main.js.map": "/genshinpedia/static/js/main.2701e927.chunk.js.map",
+    "main.js": "/genshinpedia/static/js/main.9deb8fa3.chunk.js",
+    "main.js.map": "/genshinpedia/static/js/main.9deb8fa3.chunk.js.map",
     "runtime-main.js": "/genshinpedia/static/js/runtime-main.0c8c2b3f.js",
     "runtime-main.js.map": "/genshinpedia/static/js/runtime-main.0c8c2b3f.js.map",
     "static/css/2.983f79de.chunk.css": "/genshinpedia/static/css/2.983f79de.chunk.css",
@@ -20,6 +20,6 @@
     "static/css/2.983f79de.chunk.css",
     "static/js/2.a667f55b.chunk.js",
     "static/css/main.de6ddab0.chunk.css",
-    "static/js/main.2701e927.chunk.js"
+    "static/js/main.9deb8fa3.chunk.js"
   ]
 }
