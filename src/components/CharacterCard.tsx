@@ -60,20 +60,33 @@ export const CharacterCard: React.FC<CardProps> = (props: CardProps) => {
         <div className="tab-content" id="myTabContent">
           <div className="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
             <div className="card-body">
-              <h5 className="card-title">{item?.name}</h5>
-              <h6 className="card-subtitle mb-2 text-muted"><small>{item?.affiliation}, {item?.nation}</small></h6>
-              <p className="card-text">{item?.description}</p>
-              <dl className="row">
-                <dt className="col-sm-3">Vision</dt>
-                <dd className="col-sm-9">{item?.vision}</dd>
-                <dt className="col-sm-3">Weapon</dt>
-                <dd className="col-sm-9">{item?.weapon}</dd>
-                <dt className="col-sm-3">Constellation</dt>
-                <dd className="col-sm-9">{item?.constellation}</dd>
-                <dt className="col-sm-3">Birthday</dt>
-                <dd className="col-sm-9">{item?.birthday.toDateString().slice(3, 10)}</dd>
-              </dl>
-              <p className="card-text"><small>{"⭐️".repeat(item?.rarity === undefined ? 0 : item.rarity)}</small></p>
+              <div className="row g-0">
+                <div className="col-md-2">
+                  <img 
+                    src={"https://api.genshin.dev/"+props.type+"/"+props.article+"/icon"} 
+                    className="img-fluid rounded-start" 
+                    alt="..." 
+                    width={106} 
+                    height={106}
+                  />
+                </div>
+                <div className="col-md-8">
+                  <h5 className="card-title">{item?.name}</h5>
+                  <h6 className="card-subtitle mb-2 text-muted"><small>{item?.affiliation}, {item?.nation}</small></h6>
+                  <p className="card-text">{item?.description}</p>
+                  <dl className="row">
+                    <dt className="col-sm-3">Vision</dt>
+                    <dd className="col-sm-9">{item?.vision}</dd>
+                    <dt className="col-sm-3">Weapon</dt>
+                    <dd className="col-sm-9">{item?.weapon}</dd>
+                    <dt className="col-sm-3">Constellation</dt>
+                    <dd className="col-sm-9">{item?.constellation}</dd>
+                    <dt className="col-sm-3">Birthday</dt>
+                    <dd className="col-sm-9">{item?.birthday.toDateString().slice(3, 10)}</dd>
+                  </dl>
+                  <p className="card-text"><small>{"⭐️".repeat(item?.rarity === undefined ? 0 : item.rarity)}</small></p>
+                </div>
+              </div>
             </div>
           </div>
           <div className="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
