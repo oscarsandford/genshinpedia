@@ -1,25 +1,15 @@
 {
   "files": {
-    "main.css": "/genshinpedia/static/css/main.de6ddab0.chunk.css",
-    "main.js": "/genshinpedia/static/js/main.9deb8fa3.chunk.js",
-    "main.js.map": "/genshinpedia/static/js/main.9deb8fa3.chunk.js.map",
-    "runtime-main.js": "/genshinpedia/static/js/runtime-main.0c8c2b3f.js",
-    "runtime-main.js.map": "/genshinpedia/static/js/runtime-main.0c8c2b3f.js.map",
-    "static/css/2.983f79de.chunk.css": "/genshinpedia/static/css/2.983f79de.chunk.css",
-    "static/js/2.a667f55b.chunk.js": "/genshinpedia/static/js/2.a667f55b.chunk.js",
-    "static/js/2.a667f55b.chunk.js.map": "/genshinpedia/static/js/2.a667f55b.chunk.js.map",
-    "static/js/3.70b9be9e.chunk.js": "/genshinpedia/static/js/3.70b9be9e.chunk.js",
-    "static/js/3.70b9be9e.chunk.js.map": "/genshinpedia/static/js/3.70b9be9e.chunk.js.map",
+    "main.css": "/genshinpedia/static/css/main.3a7983bf.css",
+    "main.js": "/genshinpedia/static/js/main.8bf8173a.js",
+    "static/js/787.999c61c6.chunk.js": "/genshinpedia/static/js/787.999c61c6.chunk.js",
     "index.html": "/genshinpedia/index.html",
-    "static/css/2.983f79de.chunk.css.map": "/genshinpedia/static/css/2.983f79de.chunk.css.map",
-    "static/css/main.de6ddab0.chunk.css.map": "/genshinpedia/static/css/main.de6ddab0.chunk.css.map",
-    "static/js/2.a667f55b.chunk.js.LICENSE.txt": "/genshinpedia/static/js/2.a667f55b.chunk.js.LICENSE.txt"
+    "main.3a7983bf.css.map": "/genshinpedia/static/css/main.3a7983bf.css.map",
+    "main.8bf8173a.js.map": "/genshinpedia/static/js/main.8bf8173a.js.map",
+    "787.999c61c6.chunk.js.map": "/genshinpedia/static/js/787.999c61c6.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.0c8c2b3f.js",
-    "static/css/2.983f79de.chunk.css",
-    "static/js/2.a667f55b.chunk.js",
-    "static/css/main.de6ddab0.chunk.css",
-    "static/js/main.9deb8fa3.chunk.js"
+    "static/css/main.3a7983bf.css",
+    "static/js/main.8bf8173a.js"
   ]
 }
